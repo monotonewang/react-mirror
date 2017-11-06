@@ -8,7 +8,9 @@ import Click from './basic/Click';
 import ClickWithBind from './basic/ClickWithBind';
 import ConditionalRendering from './basic/ConditionalRendering';
 import ConditionalRenderingWithContructor from './basic/ConditionalRenderingWithContructor';
+import ListKey from './basic/ListKey';
 import Brand from './brand/Brand';
+import Form from './basic/Form';
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 // helloworld
@@ -155,9 +157,19 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-    <Brand/>,
+    <ListKey/>,
     document.getElementById('root')
 );
+
+ReactDOM.render(
+    <Form/>,
+    document.getElementById('root')
+);
+
+// ReactDOM.render(
+//     <Brand/>,
+//     document.getElementById('root')
+// );
 
 // ReactDOM.render(
 //     <ConditionalRenderingWithContructor/>,
@@ -171,3 +183,19 @@ ReactDOM.render(
 
 
 registerServiceWorker();
+
+
+// ; cli configs
+// user-agent = "npm/3.10.10 node/v6.11.5 win32 x64"
+//
+// ; globalconfig C:\Users\WhohaAndroid\AppData\Roaming\npm\etc\npmrc
+// disturl = "https://npm.taobao.org/dist"
+// registry = "https://registry.npm.taobao.org/"
+//
+// ; builtin config undefined
+// prefix = "C:\\Users\\WhohaAndroid\\AppData\\Roaming\\npm"
+//
+// ; node bin location = C:\Program Files\nodejs\node.exe
+// ; cwd = C:\Users\WhohaAndroid
+// ; HOME = C:\Users\WhohaAndroid
+// ; "npm config ls -l" to show all defaults.

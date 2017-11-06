@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './Brand.css';
 
 class Brand extends React.Component {
 
@@ -17,14 +18,11 @@ class Brand extends React.Component {
         return (
             <div className="Brand">
                 <div className="HeadBrand">
-                    <h1 className="AllBrand">所有的品牌</h1>
+                    <p className="AllBrand">所有的品牌</p>
 
-                    <h1 className="EditAllBrand">编辑所有品牌</h1>
+                    <p className="EditAllBrand">编辑所有品牌</p>
                 </div>
 
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
             </div>
          /*   <div>
                 <h1>所有的品牌</h1>

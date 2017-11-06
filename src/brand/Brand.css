@@ -7,13 +7,18 @@
 }
 
 .AllBrand {
-    border-radius: 25px;
+    width: 20%;
+    background-color: violet;
+    radius: 25px;
     color: blueviolet;
-    font-size: 12px;
-    text-align: center;
+    font-size: 24px;
+    text-align: left;
 }
 
 .EditAllBrand {
-
+    background-color: violet;
+    radius: 25px;
+    color: blueviolet;
+    font-size: 24px;
     text-align: right;
 }
