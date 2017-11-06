@@ -1,0 +1,19 @@
+.Brand {
+}
+
+.HeadBrand {
+    background: aquamarine;
+    text-align: center;
+}
+
+.AllBrand {
+    border-radius: 25px;
+    color: blueviolet;
+    font-size: 12px;
+    text-align: center;
+}
+
+.EditAllBrand {
+
+    text-align: right;
+}
