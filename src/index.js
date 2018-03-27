@@ -10,7 +10,6 @@ import ConditionalRendering from './basic/ConditionalRendering';
 import ConditionalRenderingWithContructor from './basic/ConditionalRenderingWithContructor';
 import ListKey from './basic/ListKey';
 import Brand from './brand/Brand';
-import Form from './basic/Form';
 
 ReactDOM.render(<App/>, document.getElementById('root'));
 // helloworld
@@ -161,10 +160,10 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-ReactDOM.render(
-    <Form/>,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//     <Form/>,
+//     document.getElementById('root')
+// );
 
 // ReactDOM.render(
 //     <Brand/>,
