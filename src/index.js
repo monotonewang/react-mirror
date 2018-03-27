@@ -10,8 +10,15 @@ import ConditionalRendering from './basic/ConditionalRendering';
 import ConditionalRenderingWithContructor from './basic/ConditionalRenderingWithContructor';
 import ListKey from './basic/ListKey';
 import Brand from './brand/Brand';
+import CommentBox from './comment/CommentBox'
+import CommentList from "./comment/CommentList";
+import CommentForm from "./comment/CommentForm";
 
 ReactDOM.render(<App/>, document.getElementById('root'));
+
+
+
+
 // helloworld
 ReactDOM.render(<h1>helloworld!</h1>, document.getElementById('root'));
 //JSX --遇到 HTML 标签（以 < 开头），就用 HTML 规则解析；遇到代码块（以 { 开头），就用 JavaScript 规则解析。
@@ -159,6 +166,20 @@ ReactDOM.render(
     <ListKey/>,
     document.getElementById('root')
 );
+
+
+// var comments=[
+//     {"author":"王好","date":"5分钟前","text":"天气不错"},
+//     {"author":"小红","date":"3分钟前","text":"天气不错"},
+// ]
+// ReactDOM.render(<CommentBox data={comments}/>, document.getElementById('commentbox'));
+
+
+// ReactDOM.render(<CommentBox url="./comment/json/CommentJson.json"/>, document.getElementById('commentbox'));
+ReactDOM.render(<CommentBox url="CommentJson.json"/>, document.getElementById('commentbox'));
+
+
+
 
 // ReactDOM.render(
 //     <Form/>,

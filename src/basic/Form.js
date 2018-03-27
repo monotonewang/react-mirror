@@ -14,7 +14,6 @@ export default class Form extends React.Component {
         alert('form value=' + this.state.value + "---------->>>country=" + this.state.country + "---->checked=" + this.state.isGoing);
         event.preventDefault();
 
-        FormComment
     }
 
     handleChange(event) {
